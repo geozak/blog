@@ -1,32 +1,32 @@
 # Jekyll configuration
 
-name: Blog Name
+name: Geozak's Blog
 description: Software Developer
 
 # Url is currently only used only for the RSS feed in feed.xml
 url: https://geozak.github.io
-#url: http://jekyll.dev
-#url: http://localhost:4000
+#url: http://blog.dev
 
 # For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
 #baseurl: ''
-baseurl: '/jekyll-clean-dark'
+baseurl: '/blog'
 
 share:
-  facebook: true
-  twitter: true
-  gplus: true
+  facebook: false
+  twitter: false
+  gplus: false
   linkedin: true
-  pinterest: true
-  email: true
+  pinterest: false
+  email: false
 
 social:
   github: geozak
-  stackoverflow: ''
-  linkedin:
-  instagram: ''
-  lastfm: ''
-  rss: feed.xml
+  stackoverflow: 
+  linkedin: 'zakary-stone-84925048'
+  instagram: 
+  lastfm: 
+  #rss: feed.xml
+  rss:
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key:
@@ -37,7 +37,7 @@ yandex_metrica:
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: streetturtle
+disqus: geozakblog
 comments: false
 
 permalink: /:year/:month/:title
@@ -53,3 +53,7 @@ kramdown:
   hard_wrap: true
 
 exclude: ['README.md', 'LICENSE']
+
+include: [.htaccess]
+
+destination: public

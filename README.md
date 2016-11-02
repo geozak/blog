@@ -1,53 +1,17 @@
-Jekyll Clean Dark
+Geozak's Blog
 ============
 
-This theme was created on top of Jekyll Clean Dark and Jekyll Clean theme by Streetturtle and Scotte (respectively), you can view the original versions in action on their blogs: [streetturtle's](http://pavelmakhov.com) and [scotte's](https://scotte.github.io).
-
-* Get it from [github](https://github.com/geozak/jekyll-clean-dark).
-* See the [live demo](https://geozak.github.io/jekyll-clean-dark/).
-
-<!---
-* See it [in action on my own blog](https://geozak.github.io/blog/).
--->
-
-This theme uses some parts of Twitter Bootstrap, which allows it to look nice on a mobile devices using a collapsable nav bar and hiding the
-sidebar.
-
-Optionally you can use:
-
- - [Disqus](http://disqus.com) as a comments system;
- - [Google Analytics](http://www.google.com/analytics/);
- - [Yandex Metrica](http://metrica.yandex.com);
- - Blog tags;
- - Share buttons.
-
-All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social acounts. It uses font-awesome, so you can have any icon you want to any social profile. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. And you can easily add more by adding new style in `theme.css` and setting it in `_config.yml`.
-
-Installation
-==
-
-If you dont't have your own blog you can clone this repository and put your articles in a `_posts` folder.
-If you already have your own blog then I think you can clone this repository and copy-paste content keeping your `_posts` folder.
-
-After you will have to set up your `_config.yml`
+This is my blog. It uses the [Jekyll](https://jekyllrb.com/) static site generator along with [GitHub Pages](https://pages.github.com/). The theme, I [customized](https://github.com/geozak/jekyll-clean-dark) from streetturtle's [Jekyll Clean Dark](https://github.com/streetturtle/jekyll-clean-dark) and scotte's [Jekyll Clean](https://github.com/scotte/jekyll-clean) themes.
 
 License
 =======
 
-The content of this theme is distributed and licensed under a
-[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
+This is my blog and I claim ownership the content. I will find a more official license that I like later. For now if you wish to use any of the content, contact me for permission.
 
-    This license lets others distribute, remix, tweak, and build upon your work,
-    even commercially, as long as they credit you for the original creation. This
-    is the most accommodating of licenses offered. Recommended for maximum
-    dissemination and use of licensed materials.
+This blog uses some tools which are the properties of their repspective owners:
 
-In other words: you can do anything you want with this theme on any site, just please
-provide a link to the original theme on github.
-
-This theme includes the following files which are the properties of their
-respective owners:
-
-* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
-* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
-* js/jquery.min.js - [jquery](https://jquery.com)
+* geozak [Jekyll Clean Dark](https://github.com/geozak/jekyll-clean-dark)
+* streetturtle [Jekyll Clean Dark](https://github.com/streetturtle/jekyll-clean-dark)
+* scotte [Jekyll Clean](https://github.com/scotte/jekyll-clean)
+* [bootstrap](http://getbootstrap.com)
+* [jquery](https://jquery.com)
