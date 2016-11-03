@@ -4,10 +4,11 @@ name: Geozak's Blog
 description: Software Developer
 
 # Url is currently only used only for the RSS feed in feed.xml
-url: https://geozak.github.io
+url: http://blog.dev
+#url: http://localhost:4000
 
 # For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
-baseurl: '/blog'
+baseurl: ''
 
 share:
   facebook: false
@@ -50,4 +51,8 @@ kramdown:
   input: GFM # Enable GitHub Flavored Markdown (fenced code blocks)
   hard_wrap: true
 
-exclude: ['README.md', 'LICENSE', '.htaccess', 'prep-tags-for-git.sh']
+exclude: ['README.md', 'LICENSE', 'prep-tags-for-git.sh']
+
+include: [.htaccess]
+
+destination: public
