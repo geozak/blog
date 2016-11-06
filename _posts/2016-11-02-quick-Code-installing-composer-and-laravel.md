@@ -58,3 +58,6 @@ echo "\$HOME/.config/composer/vendor/bin:\$PATH" >> ~/.bashrc
 laravel new             #makes new project in the current directory
 laravel new projectName #makes new project in a new directory 'projectName'
 ```
+
+## Sources
+[How to install Composer programmatically?](https://getcomposer.org/doc/faqs/how-to-install-composer-programmatically.md)
