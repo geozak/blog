@@ -11,12 +11,12 @@ url: http://blog.dev
 baseurl: ''
 
 share:
-  facebook: false
-  twitter: false
-  gplus: false
+  facebook: true
+  twitter: true
+  gplus: true
   linkedin: true
-  pinterest: false
-  email: false
+  pinterest: true
+  email: true
 
 social:
   github: geozak
@@ -24,8 +24,7 @@ social:
   linkedin: 'zakary-stone-84925048'
   instagram: 
   lastfm: 
-  #rss: feed.xml
-  rss:
+  rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key:

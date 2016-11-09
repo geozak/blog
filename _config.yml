@@ -13,7 +13,7 @@ share:
   facebook: false
   twitter: false
   gplus: false
-  linkedin: true
+  linkedin: false
   pinterest: false
   email: false
 
