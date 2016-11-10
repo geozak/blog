@@ -83,6 +83,7 @@ sudo gem install jekyll
             <div class="container-fluid" markdown="1">
 ### Install Jekyll on Mac
 Open Terminal (Applications->Utilities->Terminal)
+
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 sudo brew install ruby
