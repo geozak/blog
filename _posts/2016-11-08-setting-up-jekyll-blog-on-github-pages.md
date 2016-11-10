@@ -70,30 +70,24 @@ sudo gem install jekyll
     1. Run DevKit-*-sfx.exe
     2. Extract to a unique folder (e.g. C:\Users\geozak\Downloads\DevKit)
     3. Open a Command Prompt and navigate the the folder
-    4. Execute
-```
-ruby dk.rb init
-ruby dk.rb install
-```
-    5. Download the rubygems-update gem from [RubyGem](https://rubygems.org/pages/download)
-    6. Change directory to the rubygems file
-    7. Execute
-```
-gem install rubygems-update-*.gem
-update_rubygems
-gem install jekyll
-```
+    4. Execute `ruby dk.rb init`
+    5. Execute `ruby dk.rb install`
+    6. Download the rubygems-update gem from [RubyGem](https://rubygems.org/pages/download)
+    7. Change directory to the rubygems file
+    8. Execute `gem install rubygems-update-*.gem`
+    9. Execute `update_rubygems`
+    10. Execute `gem install jekyll`
 </div> <!-- This close tag must be left aligned. -->
         </div> <!-- close windows -->
         <div role="tabpanel" class="tab-pane" id="mac">
             <div class="container-fluid" markdown="1">
 ### Install Jekyll on Mac
-1. Install Xcode from the Mac Store
-2. Open Xcode
-3. Preferences → Downloads → Components
-4. Open Terminal
+Open Terminal (Applications->Utilities->Terminal)
 ```
-gem install jekyll
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+sudo brew install ruby
+sudo gem install bundler
+sudo gem install jekyll
 ```
 </div> <!-- This close tag must be left aligned. -->
         </div> <!-- close mac -->
@@ -118,6 +112,7 @@ Also because of how jekyll prioritizes plugins vs existing files you will need t
 
 That may be hard to follow because the process is a little convoluted.
 Heres a small script to demostrate the process:
+
 ```
 rm -r tag/
 jekyll build
@@ -134,6 +129,7 @@ If you are using [My Theme](https://github.com/geozak/jekyll-clean-dark), I have
 For development on testing on your local system I have included a file called '_config-local.yml'.
 I find this useful so that I am not constantly changing my config file back and forth for commits, especially for the url, baseurl, include and exclude setting.
 Use the config file wth one of these commands:
+
 ```
 jekyll build --config _config-local.yml
 jekyll serve --config _config-local.yml
@@ -141,6 +137,7 @@ jekyll serve --config _config-local.yml
 
 For the handling the confusion of dealing with tags and including them in git I created a bash script to handle them. The script increases the benifit of using separate config files.
 It generates the the tag files, adds them to the git stageing, and cleans working directory so that the files don't interfer with local development and testing while making git not scream at you for missing the tag.
+
 ```
 sh prep-tags-for-git.sh
 ```
