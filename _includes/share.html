@@ -4,7 +4,7 @@
   <ul class="share-buttons">
     {% if site.share.facebook %}
     <li class="share-facebook">
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | append: site.baseurl | append: page.url}}" target="_blank" title="Share on Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" title="Share on Facebook">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square-o fa-stack-2x"></i>
           <i class="fa fa-facebook fa-stack-1x"></i>
@@ -15,7 +15,7 @@
 
     {% if site.share.twitter %}
     <li class="share-twitter">
-      <a href="https://twitter.com/intent/tweet?url={{ site.url | append: site.baseurl | append: page.url }}&text={{page.title}}" target="_blank" title="Tweet">
+      <a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url | url_escape }}&text={{page.title}}" target="_blank" title="Tweet">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square-o fa-stack-2x"></i>
           <i class="fa fa-twitter fa-stack-1x"></i>
