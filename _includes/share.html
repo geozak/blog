@@ -2,7 +2,7 @@
 
 <div class="share-bar">
 <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" target="_blank" title="Share on Facebook">https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}</a>
-<a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url | url_escape }}&text={{page.title}}" target="_blank" title="Tweet">https://twitter.com/intent/tweet?url={{ page.url | absolute_url | url_escape }}&text={{page.title}}</a>
+<a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url | uri_escape }}&text={{page.title}}" target="_blank" title="Tweet">https://twitter.com/intent/tweet?url={{ page.url | absolute_url | uri_escape }}&text={{page.title}}</a>
   <ul class="share-buttons">
     {% if site.share.facebook %}
     <li class="share-facebook">
